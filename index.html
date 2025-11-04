@@ -5,37 +5,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Giard Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    Oferta
-    O firmie
-    Realizacje
-    Kontakt
+  <header class="header">
+    <div class="header__logo">
+      <h1>Giard Design</h1>
+      <img class="header__logo-img" src="images/logo.svg" alt="Giard Design Logo">
+    </div>
+    <ul class="header__navigation navigation">
+      <li class="navigation__item">
+        <a class="navigation__link" href="">Oferta</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="">O firmie</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="">Realizacje</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="">Kontakt</a>
+      </li>
+    </ul>
   </header>
   <section class="hero">
-    <h2>
+    <h2 class="hero__heading">
       Nowoczesna aranżacja Twojego ogrodu
     </h2>
-    <p>Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres usługz
+    <p class="hero__info">Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy
+      kompleksowy zakres usługz
       indywidualnym podejściem do każdego projektu.</p>
-    <button>Skontaktuj się z nami</button>
-    <a href="#" class="button">Zobacz nasze realizacje</a>
-    <div class="carousel">
-      <ul>
-        <li>
-          <img src="" alt="">
+    <button class="hero__button">Skontaktuj się z nami</button>
+    <a href="#" class="hero__link">Zobacz nasze realizacje</a>
+    <div class="hero__photo-carousel photo-carousel">
+      <ul class="photo-carousel__track track">
+        <li class="track__item">
+          <img class="track__photo-item" src="" alt="">
         </li>
-        <li>
-          <img src="" alt="">
+        <li class="track__item">
+          <img class="track__photo-item" src="" alt="">
         </li>
-        <li>
-          <img src="" alt="">
+        <li class="track__item">
+          <img class="track__photo-item" src="" alt="">
         </li>
       </ul>
-      <button></button>
-      <button></button>
+      <button class="photo-carousel__button"></button>
+      <button class="photo-carousel__button"></button>
     </div>
   </section>
   <section class="features">
