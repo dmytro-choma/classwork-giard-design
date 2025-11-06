@@ -424,6 +424,8 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  line-height: 150%;
+  color: var(--black);
 }
 
 /* HERO */
@@ -514,4 +516,47 @@ body {
   background: none;
   border: none;
   flex-grow: 1;
+}
+
+
+/*....features.... */
+
+.features {
+  background-color: var(--grey);
+  padding: 30px 10% 40px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.features__oferta {
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--green);
+  font-weight: normal;
+}
+
+.features__heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 115%;
+  letter-spacing: -0.03em;
+  color: var(--black);
+}
+
+.features__carousel {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features__item {
+  border-radius: 28px;
+  padding: 30px 24px;
+  width: 80vw;
+  background-color: var(--white);
+  flex-shrink: 0;
 }
